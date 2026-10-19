@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+.vscode/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Large data and model artifacts (review before publishing)
+*.parquet
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+lightning_logs/
+wandb/
