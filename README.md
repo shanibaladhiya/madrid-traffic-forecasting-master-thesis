@@ -34,6 +34,8 @@ Hardware used: NVIDIA RTX A2000, 12 GB VRAM.
 
 Input file for all 3 models is traffic_features_v3.parquet(Approximately 3.9 GB) which is generated after preprocessing and used further training the models and evaluation. These datset generated from different 3 datasets which can be downloaded from https://datos.madrid.es/dataset/ . For getting idea about the input datast for all 3 models - It is uploaded online.
 
+Link to Dataset: https://drive.google.com/file/d/1WXyk2lS9Thlt6DSljEIHE-ZpKqkD6Kzn/view?usp=sharing
+
 Throught out the Thesis - Date range used: 2023-01-01 to 2026-05-31 (in code - traffic_features_v3.parquet)
 
 Checkpoints from model, can be generated after applying dataset to the models.
